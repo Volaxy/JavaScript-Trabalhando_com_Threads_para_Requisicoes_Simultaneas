@@ -28,3 +28,8 @@ URL do curso -> [JavaScript - Trabalhando com Threads para Requisições Simult�
 * Implementar um gráfico com os métodos disponíveis na biblioteca **Chart.js**.
 * Consumir *API*s de forma assíncrona com a **FetchAPI**.
 * Conectar com a *API* de cotação de moedas chamada **Awesome API**.
+
+## 02 - Aplicando a Assincronicidade
+* Identificar o modelo de concorrência.
+* Compreender a execução do código JavaScript.
+* Distinguir os papéis do Event Loop, Call Stack e Task Queue.
