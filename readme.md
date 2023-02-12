@@ -18,12 +18,9 @@ URL do curso -> [JavaScript - Trabalhando com Threads para Requisições Simult�
 ## Siglas &#x1F5FA;
 * API - **A**pplication **P**rogramming **I**nterface - Interface de Programação de Aplicações.
 
-## Atalhos &#x2328;
-*
-
 ***
 
-## 01 - Visualizando Dados &#x1F516;
+## 01 - Visualizando Dados
 * Instalar a biblioteca **Chart.js** via CDN.
 * Implementar um gráfico com os métodos disponíveis na biblioteca **Chart.js**.
 * Consumir *API*s de forma assíncrona com a **FetchAPI**.
@@ -47,3 +44,10 @@ Exportar e importar arquivos JavaScript.
 * Enviar mensagem entre threads com `postMessage()`.
 * Detectar o envio de mensagens com o `addEventListener()`.
 * Identificar o que é o modelo de paralelismo e as diferenças entre single thread e multithread.
+
+## 05 - Reforçando o Aprendizado
+* Construir mais de um gráfico com a biblioteca Chart.js.
+* Criar novas threads.
+* Capturar vários elementos de uma vez.
+* Implementar condicionais com o operador condicional ternário (condição ? expressão1 : expressão2).
+* Fazer deploys do projeto.
