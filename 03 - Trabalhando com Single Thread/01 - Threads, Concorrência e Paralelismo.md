@@ -1,0 +1,12 @@
+Em todos os sistemas operacionais modernos, todas as unidades de execução fora do kernel (o núcleo do sistema operacional, que é a parte principal de um computador) são organizadas em **processos e threads**. Os desenvolvedores podem usar processos e threads e a comunicação entre eles para adicionar simultaneidade (**concorrência**) a um projeto. Em sistemas com vários núcleos de CPU, isso também significa adicionar **paralelismo**.
+
+![Infográfico com título concorrência versus paralelismo, onde há uma coluna representando o processo de concorrência contando com quatro quadrados de tons de azul diferentes um em cima do outro demonstrando que os processos ocorrem seguindo uma ordem e outras duas colunas representando o processo de paralelismo, onde cada uma delas é preenchida com um tom de azul diferente para demonstrar que os processos ocorrem simultaneamente](./img1.png).
+
+Ao executar um programa, como um editor de código, você está iniciando um processo. Com isso o código é carregado em um espaço de memória exclusivo para esse processo, e nenhum outro espaço de memória pode ser endereçado pelo programa sem solicitar ao kernel mais memória ou um espaço de memória diferente. **Sem adicionar threads ou processos adicionais, apenas uma instrução é executada por vez, na ordem apropriada conforme prescrito pelo código do programa, e isso é o que chamamos de processo single thread**.
+
+## Concorrência versus Paralelismo
+> “Concurrency is about dealing with lots of things at once. Parallelism is about doing lots of things at once.” - Rob Pyke
+
+Na programação, a **concorrência** é a composição de processos de execução independente, enquanto o paralelismo é a execução simultânea de computações (possivelmente relacionadas). Simultaneidade é lidar com muitas coisas ao mesmo tempo. Paralelismo é fazer muitas coisas ao mesmo tempo. Isso é a explicação de Rob Pyke na palestra [“Concurrency is not paralelism”](https://www.youtube.com/watch?v=oV9rvDllKEg).
+
+Como comentado na aula anterior: O JavaScript possui um **modelo de concorrência** baseado em um **event loop**. Assim, por padrão, podemos notar que o código JavaScript executa scripts independentes, um por vez, demonstrando seu modelo de concorrência. Já, com a possibilidade de adicionar mais de uma thread, esse processo será diferente ao conseguir executar simultaneamente diferentes funções, adaptando-o ao **paralelismo**.

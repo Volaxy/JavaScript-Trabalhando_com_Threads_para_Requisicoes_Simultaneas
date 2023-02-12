@@ -33,3 +33,10 @@ URL do curso -> [JavaScript - Trabalhando com Threads para Requisições Simult�
 * Identificar o modelo de concorrência.
 * Compreender a execução do código JavaScript.
 * Distinguir os papéis do Event Loop, Call Stack e Task Queue.
+
+## 03 - Trabalhando com Single Thread
+Adicionar itens a um array com o método `push()`;
+Percorrer um array com o método `forEach()`;
+Atualizar um gráfico da biblioteca Chart.js com o método `update()`;
+Manipular o DOM com innerHTML, `createElement()` e `appendChild()`;
+Exportar e importar arquivos JavaScript.
