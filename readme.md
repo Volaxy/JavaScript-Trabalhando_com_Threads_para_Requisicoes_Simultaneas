@@ -40,3 +40,10 @@ Percorrer um array com o método `forEach()`;
 Atualizar um gráfico da biblioteca Chart.js com o método `update()`;
 Manipular o DOM com innerHTML, `createElement()` e `appendChild()`;
 Exportar e importar arquivos JavaScript.
+
+## 04 - Trabalhando com Multithread
+* Criar novas threads.
+* Definir web workers.
+* Enviar mensagem entre threads com `postMessage()`.
+* Detectar o envio de mensagens com o `addEventListener()`.
+* Identificar o que é o modelo de paralelismo e as diferenças entre single thread e multithread.
